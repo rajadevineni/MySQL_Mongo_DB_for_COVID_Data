@@ -25,16 +25,16 @@ Thanks to [John Davis](https://www.kaggle.com/johnjdavisiv) for the dataset!
 
 ## DataBase Creation:
 
-Refer the **"Project_ER_Schema.mwb"** file for ER Schema of the designed DataBase, **"Project_ER_Schema.sql"** file can be used to create the DB on the local systems.
+Refer the [**Project_ER_Schema.mwb**](https://github.com/rajadevineni/COVID_Analysis/blob/master/Project_ER_Schema.mwb) file for ER Schema of the designed DataBase, [**Project_ER_Schema.sql**](https://github.com/rajadevineni/COVID_Analysis/blob/master/Project_ER_Schema.sql) file can be used to create the DB on the local system.
 
 ## INSERT_SQL queries Generation:
 
-**"sql_insert_generator.ipynb"** python notebook takes input of 3 CSV files and generates INSERT SQL quries for each tables designed in DB Schema.
+[**sql_insert_generator.ipynb**](https://github.com/rajadevineni/COVID_Analysis/blob/master/sql_insert_generator.ipynb) python notebook takes input of 3 CSV files and generates INSERT SQL quries for each tables designed in DB Schema.
   the python notebook does many of the data processing functions like duplicate handling and splitting the columns and generating datasets for individual tables.
 
 ## Data Loading:
 
-Due to the foreign key dependencies between the tables, run the SQL files in the below order only. you can find the [SQL queries here] (https://github.com/rajadevineni/COVID_Analysis/blob/master/Data_Load_Quries/SQL_Scripts.zip) 
+Due to the foreign key dependencies between the tables, run the SQL files in the below order only. you can find the [SQL queries here](https://github.com/rajadevineni/COVID_Analysis/blob/master/Data_Load_Quries/SQL_Scripts.zip) 
   1. state_lockdown_details.sql
   1. county_details.sql
   1. station_details.sql
