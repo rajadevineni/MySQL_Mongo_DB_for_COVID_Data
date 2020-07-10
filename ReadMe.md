@@ -25,7 +25,23 @@ Thanks to [John Davis](https://www.kaggle.com/johnjdavisiv) for the dataset!
 
 ## DataBase Creation:
 
-Refer the [**Project_ER_Schema.mwb**](https://github.com/rajadevineni/COVID_Analysis/blob/master/Project_ER_Schema.mwb) file for ER Schema of the designed DataBase, [**Project_ER_Schema.sql**](https://github.com/rajadevineni/COVID_Analysis/blob/master/Project_ER_Schema.sql) file can be used to create the DB on the local system.
+### Schema Design:
+
+415 columns over the 3 source files are divided into 6 tables mentioned below. 
+
+#### Tables:
+  1. county_details
+  1. State_lockdown_details
+  1. fips_daily_cases
+  1. daily_weather_details
+  1. county_socio_health
+  1. station_details
+#### Entity relations:
+    
+![Schema Design](https://github.com/rajadevineni/COVID_Analysis/blob/master/Miniature_%20ER_Schema.png)
+
+* Refer the [**Project_ER_Schema.mwb**](https://github.com/rajadevineni/COVID_Analysis/blob/master/Project_ER_Schema.mwb) file for the detailed ER Schema of the DataBase
+* [**Project_ER_Schema.sql**](https://github.com/rajadevineni/COVID_Analysis/blob/master/Project_ER_Schema.sql) file can be used to create the DB on the local system.
 
 ## INSERT_SQL queries Generation:
 
