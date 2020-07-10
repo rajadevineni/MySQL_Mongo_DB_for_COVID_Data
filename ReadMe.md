@@ -9,5 +9,13 @@ Temperature and humidity may affect the transmissibility of COVID19, but in the 
   the python notebook does many of the data processing functions like duplicate handling and splitting the columns and generating datasets for individual tables.
  
  
-Please refer the "Project_ER_Schema.mwb" file for ER Schema of the DataBase designed. "Project_ER_Schema.sql" file can be used to create the DB.
+Refer the "Project_ER_Schema.mwb" file for ER Schema of the DataBase designed. "Project_ER_Schema.sql" file can be used to create the DB.
 
+Due to dependencies, run the SQL files in the below order only:
+
+1. state_lockdown_details.sql
+2. county_details.sql
+3. station_details.sql
+4. fips_daily_cases.sql
+5. daily_weather_details.sql
+6. county_socio_health.sql
