@@ -11,7 +11,7 @@ Combining county-level data on health, socioeconomics, and weather can help us a
 Temperature and humidity may affect the transmissibility of COVID19, but in the United States, warmer regions also tend to have markedly different socioeconomic and health demographics. As such, it's important to be able to control for factors like obesity, diabetes, access to healthcare, and poverty rates, since these factors themselves likely play a role in COVID19 transmission and fatality rates.
 
 The dataset has 3 CSV files and total of 415 columns:
-  1. US_counties_COVID19_health_weather_data.csv
+  1. US_counties_COVID19_health_weather_data.csv 
   1. us_county_sociohealth_data.csv
   1. us_county_geometry.csv
 
@@ -40,7 +40,7 @@ Thanks to [John Davis](https://www.kaggle.com/johnjdavisiv) for the dataset!
     
 ![Schema Design](https://github.com/rajadevineni/COVID_Analysis/blob/master/Miniature_%20ER_Schema.png)
 
-* Refer the [**Project_ER_Schema.mwb**](https://github.com/rajadevineni/COVID_Analysis/blob/master/Project_ER_Schema.mwb) file for the detailed ER Schema of the DataBase
+* [**Project_ER_Schema.mwb**](https://github.com/rajadevineni/COVID_Analysis/blob/master/Project_ER_Schema.mwb) file has the detailed ER Schema of the Database. 
 * [**Project_ER_Schema.sql**](https://github.com/rajadevineni/COVID_Analysis/blob/master/Project_ER_Schema.sql) file can be used to create the DB on the local system.
 
 ## INSERT_SQL queries Generation:
@@ -50,7 +50,7 @@ Thanks to [John Davis](https://www.kaggle.com/johnjdavisiv) for the dataset!
 
 ## Data Loading:
 
-Due to the foreign key dependencies between the tables, run the SQL files in the below order only. You can find the [SQL queries here](https://github.com/rajadevineni/COVID_Analysis/blob/master/Data_Load_Quries/SQL_Scripts.zip) 
+Due to the foreign key dependencies between the tables, run the SQL files in the below order only. You can find the [**SQL queries here**](https://github.com/rajadevineni/COVID_Analysis/blob/master/Data_Load_Quries/SQL_Scripts.zip) 
   1. state_lockdown_details.sql
   1. county_details.sql
   1. station_details.sql
