@@ -1,10 +1,14 @@
-Introduction:
+# **Introduction**
 
 The 3,142 counties of the United States span a diverse range of social, economic, health, and weather conditions. Because of the COVID19 pandemic, over 2,400 of these counties have already experienced some COVID19 cases.
 
 Combining county-level data on health, socioeconomics, and weather can help us address identify which populations are at risk for COVID19 and help prepare high-risk communities.
 
 Temperature and humidity may affect the transmissibility of COVID19, but in the United States, warmer regions also tend to have markedly different socioeconomic and health demographics. As such, it's important to be able to control for factors like obesity, diabetes, access to healthcare, and poverty rates, since these factors themselves likely play a role in COVID19 transmission and fatality rates.
+
+The data is collected from Kaggle project 
+dataset provides all of this information, formatted, cleaned, and ready for analysis. Most columns have little or no missing data. A small number have larger amounts of missing data; see the kernel that generated this dataset for details
+You can find out more about this data set here:(https://www.kaggle.com/johnjdavisiv/us-counties-weather-health-covid19-data)
 
 Data Base Creation:
 
