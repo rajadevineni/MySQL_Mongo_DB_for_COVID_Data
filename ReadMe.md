@@ -34,7 +34,7 @@ Refer the [**Project_ER_Schema.mwb**](https://github.com/rajadevineni/COVID_Anal
 
 ## Data Loading:
 
-Due to the foreign key dependencies between the tables, run the SQL files in the below order only. you can find the [SQL queries here](https://github.com/rajadevineni/COVID_Analysis/blob/master/Data_Load_Quries/SQL_Scripts.zip) 
+Due to the foreign key dependencies between the tables, run the SQL files in the below order only. You can find the [SQL queries here](https://github.com/rajadevineni/COVID_Analysis/blob/master/Data_Load_Quries/SQL_Scripts.zip) 
   1. state_lockdown_details.sql
   1. county_details.sql
   1. station_details.sql
@@ -45,4 +45,4 @@ Due to the foreign key dependencies between the tables, run the SQL files in the
 ## Validation:
 
 * After Creating the DB and loading the data, "Validation_Quries.sql" can be used to check if you have loaded the complete data as expected. 
-* Each query has the count commented below to check you data count after loading into the table.  
+* Each query has the count commented below to check the data count after loading into the table.  
