@@ -29,7 +29,7 @@ Refer the **"Project_ER_Schema.mwb"** file for ER Schema of the designed DataBas
 
 ## INSERT_SQL queries Generation:
 
-"sql_insert_generator.ipynb" python notebook takes input of 3 CSV files and generates INSERT SQL quries for each tables designed in DB Schema.
+**"sql_insert_generator.ipynb"** python notebook takes input of 3 CSV files and generates INSERT SQL quries for each tables designed in DB Schema.
   the python notebook does many of the data processing functions like duplicate handling and splitting the columns and generating datasets for individual tables.
 
 ## Data Loading:
