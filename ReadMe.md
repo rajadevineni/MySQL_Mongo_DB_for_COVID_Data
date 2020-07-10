@@ -19,3 +19,6 @@ Due to dependencies, run the SQL files in the below order only:
 4. fips_daily_cases.sql
 5. daily_weather_details.sql
 6. county_socio_health.sql
+
+
+After Creating the DB and loading the data, "Validation_Quries.sql" can be used to check if you have loaded the complete data as expected. 
