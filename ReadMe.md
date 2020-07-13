@@ -1,4 +1,4 @@
-# **Understanding Weather + Socio/Health impacts on COVID19**
+# **SQL-Mongo Project – Populations at Risk for COVID19**
 
 >This project was undertaken as academic study to understand and apply the concepts of ***BUAN 6320: DataBase Foundations for Business Analytics***. The data set chosen by the course instructor and the analysis done as part of this project is not representative of the overall statistics.
 
